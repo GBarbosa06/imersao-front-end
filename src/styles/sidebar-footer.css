@@ -175,6 +175,7 @@ body{
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+    
 }
 .disclaimer-premium .text {
    flex-shrink: 0;
@@ -203,4 +204,14 @@ body{
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.disclaimer-premium .close-disclaimer span{
+    font-size: 19px;
+    color: #181818dc;
+    font-weight: 600;
+    margin-right: 40px;
+}
+.disclaimer-premium .close-disclaimer span:hover{
+    cursor: pointer;
 }
